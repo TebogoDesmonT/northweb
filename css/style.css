@@ -1,0 +1,95 @@
+/* general styling */
+	body {
+		font-family: verdana !important;
+	}
+
+	/* contacts */
+	#myTabMD .nav-item{
+		color:white !important;
+		width:50% !important;
+	}
+
+	#myTabMD .nav-item .active{
+		color:white !important;
+		background-color:#223A5E !important;
+		margin:0px !important;
+	}
+
+	#myTabMD .nav-item .active :hover{
+		color:white !important;
+		background-color:#223A5E !important;
+		margin:0px !important;
+	}
+
+	#myTabMD .nav-item :hover{
+		background-color:white ;
+		color:black ;
+	}
+
+/* Home page */
+	#a-active{
+		color:white !important;
+		background-color:#223A5E !important;
+		border-radius:5px !important;
+	}
+
+	#about_us{
+		margin:5%;
+		margin-bottom:0px;
+		text-align:center;
+	}
+
+	#contact_us{
+		margin-bottom:5%;
+		text-align:center;
+	}
+
+	#contact_us #details{
+		margin-bottom:5%;
+		text-align:center;
+	}
+
+	#hr_1 hr{
+		margin-top:5%;
+		margin-bottom:80px;
+		width:97%;
+		border:1px solid #22585e;
+	}
+
+	#hr_2 hr{
+		margin-top:5%;
+		margin-bottom:80px;
+		width:97%;
+		border:1px solid #223A5E;
+	}
+
+/* about page */
+	ul.a {
+		list-style-type: circle;
+	}
+
+/* services page */
+	#services{
+		display:grid;
+		grid-gap:10px;
+		grid-template-columns: repeat( auto-fit , minmax(200px, 1fr));
+		border-radius:5px;
+	}
+
+	#services .view{
+		border-radius:5px;
+		text-align:center;
+	}
+
+	#services #h3{
+		grid-column-start:1;
+		grid-column-end:-1;
+		text-align:center;
+	}
+
+	#hr_3 hr{
+		margin-top:0px;
+		margin-bottom:5%;
+		width:97%;
+		border:1px solid #223A5E;
+	}
